@@ -1,0 +1,28 @@
+body {
+    background: url("../Image/ruet.png");
+    min-height: auto;
+}
+
+table {
+    width: 50%;
+    margin-left: 45%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1.8px solid rgb(65, 65, 65);
+    padding: 8px;
+    background: transparent;
+    backdrop-filter: blur(60px);
+    resize: both;
+    text-align: center;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: white;
+}

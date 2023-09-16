@@ -1,0 +1,38 @@
+
+
+button{
+    margin-left: 40%;
+    margin-top: 0%;
+    font-family: serif;
+    font-size: 1em;
+    font-weight: 200;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+    cursor: grab;
+    backdrop-filter: blur(60px);
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+.ctno1 {
+    width: 40%;
+    margin-left: 9.2%;
+   
+    border: 3px solid rgb(101, 101, 101);
+    border-radius: 40px;
+    text-align: center;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.department1 {
+    width: 68%;
+    
+    border: 3px solid rgb(101, 101, 101);
+    border-radius: 40px;
+    background: black;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}

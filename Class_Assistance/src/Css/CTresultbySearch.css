@@ -1,0 +1,125 @@
+.Ctresultby1{
+    min-height: 100vh;
+    display: flex;
+    background: url('../Image/results.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.Searchbox {
+    position: fixed;
+    /* display: flex; */
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 40px 40px black;
+    margin-top: -11%;
+    margin-left: -26%;
+}
+
+#roll {
+    margin-top: 15%;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 40px;
+    border: 3px solid black;
+    font-size: 0.8em;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+#course {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 40px;
+    border: 3px solid black;
+    font-size: 0.8em;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.ctselect {
+    display: flex;
+    width: 40%;
+    height: 30px;
+    margin-top: -8.5%;
+    margin-left: 38%;
+    font-size: 0.8em;
+    border: 3px solid green;
+    border-radius: 40px;
+    text-align: center;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+#search-form {
+    color: white;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    background: rgb(73, 73, 73);
+    border-radius: 10px;
+}
+
+.searchbtn {
+    width: 160px;
+    height: 35px;
+    margin-top: 7%;
+    margin-left: 32%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-family: cursive;
+    border-radius: 10px;
+    background: rgb(0, 136, 136);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 10px 10px 10px black;
+}
+
+.head {
+    color: rgb(0, 0, 0);
+    position: fixed;
+    cursor: none;
+    display: flex;
+    font-family: cursive;
+    /* margin-top: -60%; */
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 0.9em;
+    box-shadow: 2px 2px 2px white;
+}
+
+.result {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    background: black;
+    color: white;
+    font-family: serif;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px black;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.active-popup {
+    transform: scalex(1);
+}

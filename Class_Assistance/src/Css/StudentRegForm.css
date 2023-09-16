@@ -1,0 +1,171 @@
+
+
+.stdh1{
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    margin-left: 37%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 240px;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    font-size: 0.8em;
+    cursor: none;
+  }
+  
+  .studentregform {
+    position: fixed;
+    margin-top: -7%;
+    font-size: 1.3em;
+    width: 550px;
+    height: 520px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background: transparent;
+    z-index: 1;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    transform: scaleY(0);
+    transition: transform 0.6s;
+  }
+  
+  .active-popup {
+    transform: scaleY(1);
+  }
+
+  label {
+    margin-left: 10%;
+    font-size: 0.9em;
+    font-family: cursive;
+    border-bottom-style: groove;
+    border-radius: 5px;
+    cursor: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px rgb(254, 254, 254);
+}
+
+input.name {
+    width: 55%;
+    border: 0;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(51, 0, 0);
+    outline: 0;
+    margin-left: 16%;
+    font-size: 0.7em;
+    font-family: cursive;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+input.name:hover {
+    border-bottom: 2px solid rgb(30, 255, 0);
+}
+
+input.email {
+    width: 55%;
+    border: 0;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(63, 0, 0);
+    outline: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16%;
+    font-size: 0.7em;
+    font-family: cursive;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+input.email:hover {
+    border-bottom: 2px solid rgb(255, 106, 0);
+}
+
+input.password {
+    width: 55%;
+    border: 0;
+    color: #ffffff;
+    border-bottom: 2px solid rgb(52, 0, 0);
+    outline: 0;
+    margin-left: 9.8%;
+    font-size: 0.7em;
+    font-family: cursive;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+input.password:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.department {
+    width: 60%;
+    border: 3px solid rgb(101, 101, 101);
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    margin-left: 3%;
+    font-size: 0.7em;
+    font-family: cursive;
+    padding: 7px 0;
+    cursor: pointer;
+    text-align: center;
+    background: black;
+    transition: border-color 0.2s;
+}
+
+.department:hover {
+    border: 2px solid rgb(0, 255, 145);
+}
+
+input.series {
+    width: 20%;
+    border: 0;
+    color: white;
+    border-bottom: 2px solid rgb(46, 0, 0);
+    outline: 0;
+    margin-left: 13.6%;
+    font-size: 0.7em;
+    font-family: cursive;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+input.series:hover {
+    border-bottom: 2px solid yellow;
+}
+
+input.roll {
+    width: 20%;
+    border: 0;
+    color: white;
+    border-bottom: 2px solid rgb(46, 0, 0);
+    outline: 0;
+    margin-left: 17.6%;
+    font-size: 0.7em;
+    font-family: cursive;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+input.roll:hover {
+    border-bottom: 2px solid rgb(0, 52, 195);
+}
+
+input.signup {
+    margin-left: 30%;
+    width: 200px;
+    margin-top: 0%;
+    font-family: serif;
+    font-size: 1em;
+    font-weight: 200;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+    cursor: grab;
+    backdrop-filter: blur(60px);
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 0 0 20px white;
+}
